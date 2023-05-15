@@ -153,6 +153,7 @@ public class Simulation extends JFrame implements Renderable {
         g.fillRect(0, 0, getWidth(), getHeight());
 
         // particles.renderGrid(g);
+
         particles.forEach(p -> p.render(g));
 
         mouseInput.render(g);
